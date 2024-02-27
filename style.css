@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+/* Nav Bar */
+.navbar{
+    height: 60px;
+    background-color: #00005a;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    height: 60px;
+    width: 188px;
+} 
+
+.logo {
+    background-image: url("logo.svg");
+    background-size: cover;
+    height: 60;
+    width: 188px;
+} 
+
+.nav-ops p{
+    display: inline;
+    margin-right: 20px;
+    font-size: 1rem;
+}
+
+.nav-ops {
+    width: 60%;
+    /* margin-left: 30%; */
+}
+
+.clicks p{
+    color: white;
+    text-decoration: none;
+}
+
+.btn{
+    display: inline-block;
+    background-color: #4057e3;
+    color: rgb(251, 251, 251);
+    padding: 10px;
+    margin: 30px;
+    border-radius: 30px;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.btn:hover{
+    background: rgb(243, 11, 11);
+}
+/* Hero */
+.hero{
+    height: 500px;
+    background-color: rgb(233, 232, 231);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.txtcont h1{
+    color: #4057e3;
+    font-size: 2.125rem;
+    font-weight: 700;
+}
+
+.txtcont p{
+    font-size: 1.15rem;
+    font-weight: 500;
+}
+
+.colm-sec{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #00005a;
+    padding-bottom: 20px;
+}
+
+.box{
+    height: 200px;
+    width: 20%;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.box-content{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.box h3{
+    margin-top: 20px;
+    font-size: 1.55rem;
+    color: #00005a;
+    font-weight: 400;
+}
+.box p{
+    margin-top: 20px;
+    font-size: 1.15rem;
+    font-weight: 200;
+}
+.box a{
+    margin-top: 20px;
+    font-size: 1.15rem;
+    color: #00005a;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.youtube{
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    height: 450px;
+    background-color: #00005a;
+}
+
+.youtxt h1{
+    color: white;
+    font-size: 2.125rem;
+    font-weight: 700;
+}
+
+.youtxt p{
+    font-size: 1.15rem;
+    font-weight: 500;
+    color: white;
+}
+
+/* media quary for menu */
+/* @media only screen and (max-width: 800px){
+
+    nav ul{
+        position: absolute;
+        top: 130px;
+        left: 0px;
+        background: rgb(243, 11, 11);
+        width: 100%;
+        overflow: hidden;
+        transition: max-height 0.5s;
+    }
+    nav ul li{
+        display: block;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    nav ul li a{
+        color: whitesmoke;
+    }
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+    }
+} */
+
+/* media quary for 600px screen size */
+/* @media only screen and (max-width: 600px){
+    .row{
+        text-align: center;
+    }
+    .col-2, .col-3{
+        flex-basis: 100%;
+    }
+} */
